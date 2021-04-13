@@ -3,8 +3,6 @@ var datosepisodio = [];
 function cargarDatos(){
     let res = document.querySelector('#tablaEpisodioDetalle');
     res.innerHTML = '';
-    aux=0;
-
     for(let item of Object.values(datosepisodio)){
         console.log(Object.values(item));
         
@@ -21,18 +19,20 @@ function cargarDatos(){
         }
     }
 }
+
 function buscar(event){
     if(event.key == 'Enter'){
         let datosepisodio = document.querySelector('#txtapp');
         let episodio ="";
         let html = document.querySelector('#tablaEpisodioDetalle');
-        html.innerHTML = '';
-        for(var item of Object.values(datosepisodio)){
-            console.log(Object.values(item));
-
-            for(var i=0; i<item.length; i++){
-                episodio = item [i].name;
-                
+        if(datosepisodio.length <=episodio.length && datosepisodio.length !=0 && episodio.length !=0){
+            if(datosepisodio.toLowerCase() == name.toLowerCase() ){
+                var n = document.createElement("LI");
+                var txtn= document.createTextNode(datosepisodio[episodio]);
+                n.appendChild(txtn);
+                document.getElementById("demo").appendChild(n);
+            }else {
+                alert ('error')
             }
         }
     }
