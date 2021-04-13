@@ -1,0 +1,109 @@
+
+.table-dark{
+  border: 1px #ffffff solid;
+  color:aliceblue;
+  padding: 10px;
+  margin: 10px;
+  font-variant: small-caps;
+  font-variant-ligatures: normal;
+  font-family: fantasy;
+}
+
+.primere1{
+  border: 1px rgb(19, 37, 56) solid;
+  padding: 10px;
+  margin: 10px;
+  font-variant: small-caps;
+  font-variant-ligatures: normal;
+  font-family: fantasy;
+  background-color: #030321;
+}
+.cuerpo{
+  width: 60%;
+  border: 1px white solid;
+  float: left;
+  margin: 10px;
+  font-variant: small-caps;
+}
+
+body > footer {
+  margin: 10px;
+	clear: left;
+  width: auto;
+}
+.row{
+ display:block;
+ background:rgb(6, 35, 78);
+ margin-bottom:5px;
+ padding:20px ;
+ border-radius:50px;
+ text-decoration:none;
+ color:white;
+ font:20px Verdana;
+ font-variant: small-caps;
+ font-size: smaller;
+}
+
+.menu ol a:hover{
+ background:gray;
+ font-variant: small-caps;
+ font-size: smaller;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 200%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> PATRICK'S FILMS </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/validar.js"></script>
+  </head>
+  <body onload="cargarDatosEpisodio()" class="datosFondo">
+     <div class= "row" >
+        <div class = "col" aling="rigth">
+          <input id="txtapp" type="text" placeholder="Nombre Capitulo" onkeydown="buscar(event)">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="cargarDatos()">LISTAR</button>
+        </div>
+      </div>
+    <header class="primere1">
+        <h1>
+          <span>P</span>
+          <span>A</span>
+          <span>T</span>
+          <span>R</span>
+          <span>I</span>
+          <span>C</span>
+          <span>K</span>
+          <span>'</span>
+          <span>S</span>
+          <br>
+          <span>F</span>
+          <span>I</span>
+          <span>L</span>
+          <span>M</span>
+          <span>S</span>
+        </h1>
+    </header>
+    <div class = "row">
+      <div class = "col">
+        <table class = "border table">
+          <thead>
+            <tr class = "row justify-content-center">
+              <th class="col text-center">Nombre Capitulo</th>
+              <th class="col text-center">Estreno</th>
+              <th class="col text-center">Episodio</th>
+              <th class="col text-center">URL</th>
+              <th class="col text-center">Creado</th>
+            </tr>
+          </thead>
+          <tbody id="tablaEpisodioDetalle">
+
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+    <footer class="primere1">
+      <p style="color:brown;">
+		  Bryan Patricio Carrasco Illescas &nbsp; Universidad Politécnica Salesiana
+			Email: <a href="mailto:bcarrascoi@est.ups.edu.ec">bcarrascoi@est.ups.edu.ec</a>
+			Call: <a href="tel:+593987198940">0987198940</a> Todos los derechos reservados © </p>
+
+		</footer>
+
+  </body>
+</html>
