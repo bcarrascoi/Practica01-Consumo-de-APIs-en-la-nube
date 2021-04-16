@@ -10,7 +10,7 @@ La arquitectura web que se utilizó en esta aplicación es una arquitectura de m
 
 ### 4. Desarrollar una aplicación con HTML + CSS + JavaScript + Web Services para buscar información y visualizar toda la información disponible a través de la API.
 
-a)	Creamos un archivo HTML el cual nos servirá para poder visualizar nuestra API
+### a)	Creamos un archivo HTML el cual nos servirá para poder visualizar nuestra API
 ![image](https://user-images.githubusercontent.com/56461202/114965048-7945b980-9e35-11eb-8a4c-4bfab0a2b408.png)
 
 -	Como podemos observar en este archivo, procederemos a llamar a los diferentes archivos que utilizaremos ya sea css o JavaScript.
@@ -36,7 +36,7 @@ a)	Creamos un archivo HTML el cual nos servirá para poder visualizar nuestra AP
 
 
 
-b)	Creamos un archivo CSS el cual contiene todos los estilos que se utilizará en la práctica.
+### b)	Creamos un archivo CSS el cual contiene todos los estilos que se utilizará en la práctica.
 
 ![image](https://user-images.githubusercontent.com/56461202/114965188-bf9b1880-9e35-11eb-95c4-3643a940e3cb.png)
 
@@ -44,7 +44,7 @@ b)	Creamos un archivo CSS el cual contiene todos los estilos que se utilizará e
 
 -	Este archivo contiene los diferentes estilos ya sea del título, tablas, barra de búsqueda, botón, etc.
 
-c)	Creamos un archivo JavaScript el cual contiene los métodos que se utilizarán para la práctica a realizar.
+### c)	Creamos un archivo JavaScript el cual contiene los métodos que se utilizarán para la práctica a realizar.
 
 ![image](https://user-images.githubusercontent.com/56461202/114965209-c88bea00-9e35-11eb-8775-479fe443a840.png)
 
@@ -73,30 +73,35 @@ c)	Creamos un archivo JavaScript el cual contiene los métodos que se utilizará
 
 •	Interfaz del proyecto
 
-- INICIO
+• INICIO
+
 ![image](https://user-images.githubusercontent.com/56461202/114965274-e5282200-9e35-11eb-87c8-8434ada8f974.png)
 
-- GALERÍA 
+• GALERÍA 
+
 ![image](https://user-images.githubusercontent.com/56461202/114965297-f2dda780-9e35-11eb-924a-54151af8c65b.png)
 
-- EPISODIOS
+
+• EPISODIOS
 ![image](https://user-images.githubusercontent.com/56461202/114965315-f96c1f00-9e35-11eb-8bdf-e22e0cb2044d.png)
 
-- CONTACTOS
+
+• CONTACTOS
 
 ![image](https://user-images.githubusercontent.com/56461202/114965334-00932d00-9e36-11eb-82a8-fcb74df813db.png)
 
 •	Visualización de los datos
 
-- LISTA DE EPISODIOS
+
+• LISTA DE EPISODIOS
 
 ![image](https://user-images.githubusercontent.com/56461202/114965360-0e48b280-9e36-11eb-9745-a6a60fc70f07.png)
 
-- BUSQUEDA AL MOMENTO DE DIGITAR UNA LETRA
+• BUSQUEDA AL MOMENTO DE DIGITAR UNA LETRA
 
 ![image](https://user-images.githubusercontent.com/56461202/114965406-215b8280-9e36-11eb-8ff9-0cf6c5bee5fb.png)
 
-- BUSQUEDA DEL NOMBRE DE UN CAPITULO
+• BUSQUEDA DEL NOMBRE DE UN CAPITULO
 
 ![image](https://user-images.githubusercontent.com/56461202/114965427-2c161780-9e36-11eb-9028-23246c6e7bd1.png)
 
