@@ -3,6 +3,7 @@
 ## ACTIVIDADES POR DESARROLLAR
 ### 1.	Identificar gráficamente la arquitectura web de la aplicación a desarrollar.
 La arquitectura web que se utilizó en esta aplicación es una arquitectura de microservicio.
+
 ![image](https://user-images.githubusercontent.com/56461202/114565087-91031f00-9c36-11eb-83d5-364a32ce43dd.png)
 
 ### 2. Generar una llave para consumir los servicios web de la API (opcional, depende de la API seleccionada).
